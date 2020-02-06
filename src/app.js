@@ -9,29 +9,11 @@ import Particles from 'react-particles-js'
 
 
 import Hero from './components/Hero'
+import About from './components/About'
 
 const App = () => (<>
-  <Particles
-    params={{
-      'particles': {
-        'number': {
-          'value': 50
-        },
-        'size': {
-          'value': 3
-        }
-      },
-      'interactivity': {
-        'events': {
-          'onhover': {
-            'enable': true,
-            'mode': 'repulse'
-          }
-        }
-      }
-    }}  />
   <Hero />
-
+  <About />
 </>)
 
 ReactDOM.render(

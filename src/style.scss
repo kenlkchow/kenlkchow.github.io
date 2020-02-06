@@ -1,0 +1,32 @@
+body{
+  font-family: "Roboto"
+}
+.hero{
+  margin: 0 auto;
+  h1{
+    font-size: 55px;
+  }
+  background-image: url('./images/cool-background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero-body{
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ color: black;
+}
+
+#video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.hero-foot{
+  opacity: 0.8;
+}
+
