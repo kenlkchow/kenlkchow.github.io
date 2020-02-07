@@ -22,7 +22,7 @@ const Hero = () => {
                 <a className="has-text-black">Projects</a>
               </li>
               <li>
-                <a className="has-text-black">Contact</a>
+                <a className="has-text-black" href="#Contact">Contact</a>
               </li>
             </ul>
           </div>

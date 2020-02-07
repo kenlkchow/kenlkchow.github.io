@@ -30,7 +30,43 @@ body{
   opacity: 0.8;
 }
 
-i {
-  color: rgb(230, 92, 0);
+#About{
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    p {
+      margin: 0.5em;
+    }
+  }
 }
+
+#Skills{
+ .columns{
+   margin-left: 50px;
+   margin-right: 50px;
+ }
+  i {
+     color: rgb(230, 92, 0);
+     font-size: 50px;
+   }
+  }
+
+#Contact{
+  margin-top: 50px;
+  div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    a {
+      margin: 0 auto;
+    }
+  }
+}
+
+
 
