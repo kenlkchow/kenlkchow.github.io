@@ -10,10 +10,12 @@ import Particles from 'react-particles-js'
 
 import Hero from './components/Hero'
 import About from './components/About'
+import Skills from './components/Skills'
 
 const App = () => (<>
   <Hero />
   <About />
+  <Skills />
 </>)
 
 ReactDOM.render(

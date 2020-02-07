@@ -16,7 +16,7 @@ const Hero = () => {
                 <a className="has-text-black" href="#About">About</a>
               </li>
               <li>
-                <a className="has-text-black">Skills</a>
+                <a className="has-text-black" href="#Skills">Skills</a>
               </li>
               <li>
                 <a className="has-text-black">Projects</a>
